@@ -1,0 +1,57 @@
+@import url(theme.css);
+@import url(fonts.css);
+@import url(dialogs.css);
+@import url(button.css);
+@import url(input.css);
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+}
+
+body {
+    background: var(--background);
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: var(--on-background);
+    font-family: Roboto, sans-serif;
+}
+
+.theme-switch {
+
+}
+
+main {
+    padding: 24px;
+}
+
+.actions {
+    display: flex;
+    position: fixed;
+    right: 28px;
+    top: 28px;
+    gap: 6px;
+}
+
+.card {
+    background: var(--surface);
+    border-radius: 12px;
+}
+
+#list {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+}

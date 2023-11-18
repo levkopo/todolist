@@ -1,0 +1,13 @@
+input {
+    background: transparent;
+    outline: none;
+    border: 3px solid var(--primary);
+    border-radius: 6px;
+    min-height: 32px;
+    flex: 1;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}

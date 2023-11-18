@@ -1,0 +1,19 @@
+:root {
+    --background: #FFFFFF;
+    --on-background: #000000;
+    --primary: #3633C1;
+    --on-primary: #FFFFFF;
+    --surface: #e3e3e3;
+    color-scheme: light;
+}
+
+:root[theme=dark] {
+    --background: #000000;
+    --on-background: #FFFFFF;
+    --surface: #1c1c1c;
+    color-scheme: dark;
+}
+
+* {
+    transition: background-color 100ms;
+}

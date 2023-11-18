@@ -1,0 +1,31 @@
+.icon-button {
+    user-select: none;
+    border: none;
+    font-size: 16px!important;
+    padding: 8px;
+    background: var(--primary);
+    border-radius: 50vh;
+    color: var(--on-primary);
+}
+
+.icon-transparent-button {
+    user-select: none;
+    background: transparent;
+    border: none;
+    font-size: 24px!important;
+    padding: 8px;
+    border-radius: 50vh;
+}
+
+.button {
+    user-select: none;
+    background: var(--primary);
+    color: var(--on-primary);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50vh;
+}
+
+.negative {
+    background: #FF0000;
+}

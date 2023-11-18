@@ -1,0 +1,28 @@
+dialog {
+    min-width: 360px;
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.dialog-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    gap: 4px;
+    padding: 0 6px;
+}
+
+.dialog-body {
+    padding: 0 18px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog-actions {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
