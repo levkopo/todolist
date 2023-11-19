@@ -1,4 +1,4 @@
-import {StorageState, toggle} from "./fweb";
+import {StorageState, toggle} from "./fweb/index.js";
 
 /**
  * States
